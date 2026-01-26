@@ -1,0 +1,17 @@
+secrets: {
+  SURVEV_API_KEY: "p9u1YtqVYtqv1m2z8G4yq7Yp9F1s3K8u1L0v2Q9x7T4r5B2m6H8j3K1p9U0w4Z2"
+  SURVEV_LOADOUT_SECRET: "bG9hZG91dF9zZWNyZXRfN2Y4MzQ5YjE2MjQ5ZjE2YzA2YzE1YzQ1"
+  SURVEV_IP_SECRET: "aXBfc2VjcmV0XzE5ZjQ2YzE1YzA2YzE1YzQ1N2Y4MzQ5"
+}
+
+gameServer: {
+  thisRegion: "na"
+}
+
+regions: {
+  na: {
+    https: true
+    address: "survev-private-server-production.up.railway.app"
+    l10n: "index-na"
+  }
+}
