@@ -1,11 +1,11 @@
 {
-    "name": "@survev/shared",
-    "scripts": {
-  "build": "tsc -b"
-}
-    "private": true,
-    "type": "module",
-    "dependencies": {
-        "zod": "^3.25.76"
-    }
+  "name": "@survev/shared",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
 }
