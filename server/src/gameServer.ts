@@ -414,6 +414,7 @@ setInterval(() => {
 
 const PORT = Number(process.env.PORT) || Config.gameServer.port;
 app.listen("0.0.0.0", PORT, () => {
+    
 });
 
 // try to save lost games every hour
