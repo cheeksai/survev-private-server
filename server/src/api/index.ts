@@ -227,11 +227,11 @@ setInterval(() => {
     }
 }, 60000);
 
+const PORT = Number(process.env.PORT) || Config.apiServer.port;
 const honoServer = serve({
     fetch: app.fetch,
-    port: Config.apiServer.port,
+    port: PORT,
 });
-injectWebSocket(honoServer);
 
 // run clean up scripts every midnight
 new Cron("0 0 * * *", async () => {
