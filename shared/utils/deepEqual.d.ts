@@ -1,4 +1,1 @@
-declare module "./deepEqual" {
-  const deepEqual: any;
-  export default deepEqual;
-}
+export function deepEqual(a: any, b: any): boolean;
