@@ -3,9 +3,9 @@
     "composite": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "module": "ESNext",
+    "module": "NodeNext",
     "target": "ES2022",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "NodeNext",
     "strict": true,
     "outDir": "dist"
   },
