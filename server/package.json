@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsx src/build.ts",
     "typecheck": "tsc",
+    "start": "node dist/apiServer.js",
     "start:api": "node --enable-source-maps dist/index.js",
     "start:game": "node --enable-source-maps dist/gameServer.js",
     "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:game\"",
