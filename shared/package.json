@@ -1,5 +1,8 @@
 {
     "name": "@survev/shared",
+    "scripts": {
+  "build": "tsc -b"
+}
     "private": true,
     "type": "module",
     "dependencies": {
