@@ -42,8 +42,8 @@ export default defineConfig(({ mode }) => {
     }
 
     const serverOptions: ServerOptions = {
-        port: 5000,  // Replit public port for frontend
-        host: true,  // allow all hosts (important for Replit)
+        port: 5000,  // Vite runs frontend on port 5000
+        host: true,  // allow all hosts (needed for Replit)
         proxy: {
             "/api": {
                 target: `http://${Config.apiServer.host}:${Config.apiServer.port}`,
@@ -56,13 +56,14 @@ export default defineConfig(({ mode }) => {
                 secure: false,
                 ws: true,
             },
-            "/ws": {  // ADD THIS for the game server WebSocket
+            "/ws": {  // proxy WebSocket connections to game server
                 target: "ws://127.0.0.1:8001",
                 ws: true,
                 changeOrigin: true,
             },
         },
     };
+
 
 
     return {
