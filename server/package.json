@@ -39,6 +39,7 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@survev/shared": "workspace:*",
     "@types/nanotimer": "^0.3.2",
     "@types/node": "^22.19.7",
     "@types/pg": "^8.16.0",
