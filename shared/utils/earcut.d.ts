@@ -1,4 +1,1 @@
-declare module "./earcut" {
-  const earcut: any;
-  export default earcut;
-}
+export function earcut(data: any, holeIndices?: any, dim?: number): any;
