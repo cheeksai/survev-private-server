@@ -3,7 +3,7 @@
     "composite": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "target": "ES2022",
     "strict": true,
     "outDir": "dist"
