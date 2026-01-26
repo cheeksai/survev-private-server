@@ -5,6 +5,7 @@
   "description": "Open Source Surviv.io Server",
   "scripts": {
     "survev-setup": "pnpm install && tsx setup.ts",
+    "start": "pnpm --filter @survev/server start",
     "dev": "concurrently \"pnpm run dev:api\" \"pnpm run dev:game\" \"pnpm run dev:client\"",
     "dev:server": "cd server && pnpm dev",
     "dev:api": "cd server && pnpm dev:api",
