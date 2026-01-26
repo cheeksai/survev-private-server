@@ -42,17 +42,9 @@ export default defineConfig(({ mode }) => {
     }
 
     const serverOptions: ServerOptions = {
-        port: Config.vite.port,
-        host: Config.vite.host,
+        port: 5000,  // Replit public port for frontend
+        host: true,  // allow all hosts (important for Replit)
         proxy: {
-            // this redirects /stats to /stats/
-            // because vite is cringe and does not work without trailing slashes at the end of paths 😭
-            "^/stats(?!/$).*": {
-                target: `http://${Config.vite.host}:${Config.vite.port}`,
-                rewrite: (path) => path.replace(/^\/stats(?!\/$).*/, "/stats/"),
-                changeOrigin: true,
-                secure: false,
-            },
             "/api": {
                 target: `http://${Config.apiServer.host}:${Config.apiServer.port}`,
                 changeOrigin: true,
@@ -64,8 +56,14 @@ export default defineConfig(({ mode }) => {
                 secure: false,
                 ws: true,
             },
+            "/ws": {  // ADD THIS for the game server WebSocket
+                target: "ws://127.0.0.1:8001",
+                ws: true,
+                changeOrigin: true,
+            },
         },
     };
+
 
     return {
         appType: "mpa",
