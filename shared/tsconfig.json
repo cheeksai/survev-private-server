@@ -1,13 +1,14 @@
-"compilerOptions": {
-  "composite": true,
-  "declaration": true,
-  "emitDeclarationOnly": true,
-  "module": "ESNext",
-  "target": "ES2022",
-  "moduleResolution": "nodenext",
-  "strict": true,
-  "outDir": "dist"
-},
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "outDir": "dist"
+  },
   "include": ["./**/*.ts", "./**/*.d.ts"],
   "exclude": ["dist"]
 }
