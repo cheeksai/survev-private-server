@@ -92,16 +92,16 @@ class GameServer {
 
     async sendData() {
         try {
-            await apiPrivateRouter.update_region.$post({
-                json: {
-                    data: {
-                        playerCount: this.manager.getPlayerCount(),
-                    },
-                    regionId: Config.gameServer.thisRegion,
-                },
-            });
+            //await apiPrivateRouter.update_region.$post({
+             //   json: {
+              //      data: {
+               //         playerCount: this.manager.getPlayerCount(),
+                //    },
+                 //   regionId: Config.gameServer.thisRegion,
+                //},
+            //});
         } catch (err) {
-            this.logger.error(`Failed to update region: `, err);
+            //this.logger.error(`Failed to update region: `, err);
         }
     }
 
