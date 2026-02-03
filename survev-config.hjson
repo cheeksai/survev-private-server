@@ -5,13 +5,13 @@ secrets: {
 }
 
 gameServer: {
-  thisRegion: "na"
+  thisRegion: "railway"
 }
 
 regions: {
-  na: {
+  railway: {
     https: true
     address: "survev-private-server-production.up.railway.app"
-    l10n: "index-na"
+    l10n: "index-railway"
   }
 }
