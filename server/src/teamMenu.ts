@@ -369,8 +369,7 @@ class Room {
 
 const teamCodeCharacters = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz123456789";
 function generateTeamCode(): string {
-    let str = "";
-    str = "99didy"
+    let str = "99didy";
     return `${str}`;
 }
 
