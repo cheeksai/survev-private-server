@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  client/public/img/emotes/cheek
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64">
+  <g transform="translate(4 4) scale(1.5)">
+    <rect width="40" height="48" rx="6" ry="6" fill="#f4d7be" stroke="#000" stroke-width="1" />
+    <rect y="2" width="40" height="16" rx="4" ry="4" fill="#7a5a3c" stroke="#000" stroke-width="1" />
+    <rect y="4" x="6" width="28" height="8" rx="2" ry="2" fill="#a07c55" stroke="#000" stroke-width="1" />
+    <rect x="6" y="22" width="10" height="6" rx="3" ry="3" fill="#fff" stroke="#000" stroke-width="1" />
+    <rect x="10" y="24" width="4" height="4" rx="2" ry="2" fill="#3a2b1b" stroke="#000" stroke-width="1" />
+    <rect x="24" y="22" width="10" height="6" rx="3" ry="3" fill="#fff" stroke="#000" stroke-width="1" />
+    <rect x="28" y="24" width="4" height="4" rx="2" ry="2" fill="#3a2b1b" stroke="#000" stroke-width="1" />
+    <rect x="18" y="32" width="8" height="10" rx="2" ry="2" fill="#cfa88b" stroke="#000" stroke-width="1" />
+    <rect x="10" y="44" width="20" height="6" rx="3" ry="3" fill="#8c4a3a" stroke="#000" stroke-width="1" />
+  </g>
 </svg>
