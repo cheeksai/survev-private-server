@@ -370,11 +370,7 @@ class Room {
 const teamCodeCharacters = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz123456789";
 function generateTeamCode(): string {
     let str = "";
-    for (let i = 0; i < 4; i++) {
-        str += teamCodeCharacters.charAt(
-            Math.floor(Math.random() * teamCodeCharacters.length),
-        );
-    }
+    str = "99didy"
     return `${str}`;
 }
 
