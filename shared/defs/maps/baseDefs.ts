@@ -31,7 +31,7 @@ export const Main: MapDef = {
     },
     biome: {
         colors: {
-            background: 0x20536e,
+            background: 0x99999e,
             water: 0x3282ab,
             waterRipple: 0xb3f0ff,
             beach: 0xcdb35b,
@@ -84,7 +84,7 @@ export const Main: MapDef = {
     // ! are uncertain data based on leak
     lootTable: {
         tier_world: [
-            { name: "tier_guns", count: 1, weight: 0.29 }, // TODO get more data on this from original
+            { name: "tier_guns", count: 1, weight: 1 }, // TODO get more data on this from original
             { name: "tier_ammo", count: 1, weight: 0.04 }, // ?
             { name: "tier_scopes", count: 1, weight: 0.15 }, // ?
             { name: "tier_armor", count: 1, weight: 0.1 }, // ?
@@ -100,7 +100,7 @@ export const Main: MapDef = {
             { name: "tier_packs", count: 1, weight: 0.09 }, // ?
         ],
         tier_container: [
-            { name: "tier_guns", count: 1, weight: 0.29 },
+            { name: "tier_guns", count: 1, weight: 10 },
             { name: "tier_ammo", count: 1, weight: 0.04 },
             { name: "tier_scopes", count: 1, weight: 0.15 },
             { name: "tier_armor", count: 1, weight: 0.1 },
@@ -250,13 +250,13 @@ export const Main: MapDef = {
             { name: "famas", count: 1, weight: 0.9 },
             { name: "hk416", count: 1, weight: 4 },
             { name: "mk12", count: 1, weight: 0.1 },
-            { name: "pkp", count: 1, weight: 0.005 },
-            { name: "m249", count: 1, weight: 0.006 },
+            { name: "pkp", count: 1, weight: 50 },
+            { name: "m249", count: 1, weight: 45 },
             { name: "ak47", count: 1, weight: 2.7 },
             { name: "scar", count: 1, weight: 0.01 },
             { name: "dp28", count: 1, weight: 0.5 },
             { name: "bar", count: 1, weight: 0.05 },
-            { name: "mosin", count: 1, weight: 0.05 },
+            { name: "mosin", count: 1, weight: 100 },
             { name: "m39", count: 1, weight: 0.1 },
             { name: "mp5", count: 1, weight: 10 },
             { name: "mac10", count: 1, weight: 6 },
@@ -271,11 +271,11 @@ export const Main: MapDef = {
             { name: "glock", count: 1, weight: 7 },
             { name: "deagle", count: 1, weight: 0.05 },
             { name: "vector", count: 1, weight: 0.01 },
-            { name: "sv98", count: 1, weight: 0.01 },
+            { name: "sv98", count: 1, weight: 75 },
             { name: "spas12", count: 1, weight: 1 },
             { name: "qbb97", count: 1, weight: 0.01 },
             { name: "flare_gun", count: 1, weight: 0.145 }, // !
-            { name: "flare_gun_dual", count: 1, weight: 0.0025 }, // !
+            { name: "flare_gun_dual", count: 1, weight: 50 }, // !
             { name: "groza", count: 1, weight: 0.8 },
             { name: "scout_elite", count: 1, weight: 0.1 },
             { name: "vss", count: 1, weight: 0.1 }, // !
